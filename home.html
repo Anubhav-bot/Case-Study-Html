@@ -13,9 +13,26 @@
                 overflow: hidden;
                 border-radius: 20px;
                 margin: 0px 50px;
-                height: 50px;
+                
 
+            } 
+            @media (min-width: 900) {
+              .nav_bar{max-height: 50;}
+              #nav_logo{
+                height: 1px;
+                width: 1px;
+              }
             }
+            @media (max-width: 900px){
+              .nav_bar{
+                max-height: 270px;
+                display: flex;
+                flex-direction: row-reverse;
+                flex-wrap: wrap-reverse;
+              }
+            }
+
+              /*.nav_bar li a{width: 100%;}*/
             .nav_bar li a, .nav_bar li a:visited{
                 color: orange;
                 float: right;
@@ -47,9 +64,9 @@
             footer h3{
               align-text: center;
             }
-            #last{
+   /*         #last{
               margin-right: 100px;
-            }
+            }*/
         </style>
     </head>
 
@@ -62,6 +79,7 @@
                 <li><a href="/">Staff</a></li>
                 <li><a href="/">Admission</a></li>
                 <li><a href="/home.html">Home</a></li>
+                <img id=nav_logo src="Images/logo-modified-2.jpg" max-width=270px width="100px">
             </ul>
         </nav>
 
