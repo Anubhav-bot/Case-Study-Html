@@ -1,136 +1,65 @@
-<html>
-    <head>
-        <title>
-            Home
-        </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
-            *{
-                box-sizing: border-box;
-            }
-            body{
-              background-color: #27282b;
-            }
-            .nav_bar{
-                background-color: #b20000;
-                /*overflow: hidden;*/
-                border-radius: 20px;
-                padding-right: 50px;
-                
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+  <style>
+    body{
+      background-color:  gray;
+    }
 
-            } 
-            #nav_logo{
-              height: 100px;
-              width: 100px;
-              border-radius: 20px;
-            }
-            #nav_logo:hover{
-              transform: rotate(1deg);
-              border: 1px solid orange;
-            }
-            @media (min-width: 710px) {
-              .nav_bar{max-height: 200px;}
-            }
-            @media (max-width: 710px){
-              .nav_bar{
 
-                max-height: 270px;
-                display: flex;
-                flex-direction: row-reverse;
-                flex-wrap: wrap-reverse;
-              }
-              .nav_bar li{
-                margin-left: auto;
-                margin-right: auto;
-              }
-              #nav_logo{
-                /*margin-top: 5px;*/
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
+    /*<Navigation Bar>*/
+    nav{
+      background-color:  red;
+      border-radius:  20px;
+      margin: 50px 5px;
+      display:  flex;
+      flex-wrap:  wrap;
+      flex-direction:  row;
+      justify-content:  flex-end;
+      align-items:  center;
+    }
+    nav a{
 
-              }
-            }
+      text-decoration:  none;
+      color:  orange;
+/*      border:  5px outset gray;
+      border-radius:  10px;
+      background-color:  darkred;*/
+    }
+    nav a:hover{
+      font-size:  larger;
+      color:  white;
+    }
+    nav a:active{
+      border-style:  inset;
+    }
+    #navLogo{
+      margin-right: auto;
+      margin-left:  30px;
+      height:  100px;
+      border-radius:  20px;
+      display:  block;
+    }
+    #navLogo:hover{
+      transform:  rotate(1deg);
+      border:  2px solid orange;
+    }
 
-              /*.nav_bar li a{width: 100%;}*/
+    /*</Navigation Bar>*/
+  </style>
 
-            .nav_bar li a, .nav_bar li a:visited{
-                color: orange;
-                float: right;
-                padding: 10px;
-                text-decoration: none;
-                margin-top: 7px;
-                margin-left: 10px;
-    
-            }
-            .nav_bar li a:hover{
-                color: white;
-                font-size: larger;
-            }
+</head>
+<body>
+  <nav>
+    <img src="Images/logo-modified-2.jpg" id=navLogo>
+    <a href="">Home</a>
+    <a href="">Staff</a>
+    <a href="">Admission</a>
+    <a href="">Tab4</a>
+    <a href="">Tab5</a>
+    <a href="">Contact Us</a>
+  </nav>
 
-            .nav_bar li a:active{
-                color: blue;
-            }
-
-            footer{
-              color: white;
-              background-color: #b20000;
-              height: 200px;
-              align-content: center;
-            }
-
-            footer ul{
-              align-content: center;
-            }
-            footer h3{
-              align-text: center;
-            }
-
-            jpt{
-              color: cyan;
-              font-size: 20px;
-            }
-        </style>
-    </head>
-
-    <body>
-      <nav>
-          <ul class="nav_bar" type="none">
-              <li><a href="./contact_us.html" id="last">Contact Us</a></li>
-              <li><a href="./">Notices</a></li>
-              <li><a href="./">Student</a></li>
-              <li><a href="./">Staff</a></li>
-              <li><a href="./">Admission</a></li>
-              <li><a href="./home.html">Home</a></li>
-              <img id=nav_logo src="Images/logo-modified-2.jpg">
-          </ul>
-      </nav>
-
-      <section>
-        <jpt>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus doloremque distinctio magnam aspernatur quis ipsum mollitia rerum reprehenderit, omnis sit tempore cupiditate perferendis, sunt iure, incidunt. Modi facilis necessitatibus saepe vero eveniet, exercitationem harum debitis optio porro deserunt dolorem quasi voluptates ullam eos quae impedit, maxime numquam, inventore perspiciatis. Quod, ad, vero? Rem maxime vero nihil consequatur libero molestias a neque. Quae soluta temporibus, asperiores, quam quasi velit adipisci voluptas sed eum iure deserunt quis, magnam quaerat eligendi. Amet commodi voluptatem ipsum sint quasi quam saepe fuga incidunt, adipisci deserunt nostrum modi facilis accusamus? Excepturi numquam laboriosam accusamus, officiis. Ex, corporis facere. Eaque sunt similique hic commodi, consequatur corporis quibusdam ad natus delectus quisquam incidunt error neque vero quis nisi repellat quaerat. Odit architecto fugiat vitae exercitationem ab veniam iste labore necessitatibus molestias temporibus ipsum illo eum placeat quia nobis, maxime magni animi, cumque, et laudantium, at aliquid. Mollitia tempora sint recusandae libero illum impedit ex rerum dolorem facilis eaque et, aperiam. Earum ab ipsa suscipit hic, placeat ad eos consequatur, itaque animi quae dignissimos necessitatibus nemo totam neque, incidunt! Exercitationem neque aperiam ut maxime necessitatibus quos suscipit, quidem blanditiis incidunt nostrum iure eaque veniam reiciendis dolor consequuntur amet perferendis commodi quibusdam non aspernatur. Hic, quaerat! Deserunt esse, ipsam itaque id iusto eaque voluptates earum nam accusamus numquam quis voluptatem iste facere consequuntur magnam, sint, eveniet optio rerum asperiores velit beatae autem unde at exercitationem animi! Esse, enim harum rerum, quasi nulla neque fugiat autem error nisi voluptas, eligendi pariatur delectus cupiditate vel vitae cumque at laboriosam reprehenderit ullam. Eum velit ratione voluptate qui pariatur reiciendis, saepe eaque magnam voluptatem hic dolorum nemo officia ab. Ab, quos voluptates quam odit velit quibusdam nemo reiciendis nisi quasi vero provident porro veniam molestias quia harum fugit fugiat nulla omnis pariatur magni iste quidem placeat, itaque minima eius? Ipsam autem, totam corrupti qui placeat ullam dolor asperiores doloremque ipsum ea consectetur tenetur harum atque soluta? Animi labore vel facilis nam, aut, molestiae nesciunt vero blanditiis illum, iure voluptas quam accusantium quia pariatur harum, sapiente expedita dolore minus odio aperiam maxime laborum dolores consequuntur beatae! Ad facere commodi officia fugiat. Unde dolorem magnam quisquam pariatur earum, similique id architecto error veniam quidem esse nobis, impedit quo. Dolores, perspiciatis maxime facilis nulla! Aspernatur saepe magni odio officia qui perferendis. Sunt officiis nam ducimus placeat mollitia est nostrum atque, fugiat minima rem deserunt qui, omnis delectus dolore error repellendus molestiae at dolorem rerum accusantium, explicabo quae dicta eos blanditiis velit? Adipisci perspiciatis beatae at voluptatem repellat deserunt nisi consectetur excepturi. Quidem ipsum labore alias debitis repellat laboriosam quae eos molestias ratione error. Reprehenderit quo, commodi officiis labore ipsa quis, consequuntur tempore iusto numquam recusandae. Maxime eveniet expedita, pariatur tenetur obcaecati esse amet beatae in fuga inventore? Reprehenderit perferendis animi, saepe iure, cupiditate asperiores quas pariatur minus cumque libero architecto! Corporis doloribus veniam assumenda nesciunt sed repellendus, illum, officia nisi quam corrupti sint voluptatibus sapiente ex, deleniti ab quae quibusdam iusto magni quod id sit? Ullam, nemo.
-        </jpt>
-
-      </section>
-      
-      <footer>
-          <h3>Useful Links:</h3>
-          <ul type=none>
-            <li><a>Admission</a></li>
-            <br>
-            <li><label for=staff>Staff: </label></li>
-            <li><a><select id=staff>
-              <optgroup label=Account></optgroup>
-              <option>Account1</option>
-              <option>Account2</option>
-              <optgroup label=Administration></optgroup>
-              <option>Admin1</option>
-              <option>Admin2</option>
-            </select></a></li>
-          </ul>
-            
-      </footer>
-      
-    </body>
+</body>
 </html>
-
