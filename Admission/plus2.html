@@ -1,6 +1,7 @@
+<html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Admission</title>
+  <title>Document</title>
   
   <style>
     body{
@@ -48,53 +49,38 @@
       border:  1px inset orange;
     }
 
+    form{
+      margin:  50px 100px;
+    }
+
+    #username{
+      border-radius:  10px ;
+    }
+
     /*</Navigation Bar>*/
-
-    section{
-      display:  flex;
-      flex-flow: row wrap;
-      margin:  2vw 50px;
-      align-items:  center;
-      justify-content:  space-evenly;
-    }
-
-    section div{
-      border:  3px solid white;
-      width:  500px;
-      height:  500px;
-      margin:  20px;
-      border-radius: 20px;
-    }
-
-    section div:hover{
-      width:  504px;
-      height:  504px;
-      border-color:  orange;
-    }
-
-    section div img{
-      border-radius:  20px;
-      height:  500px;
-      width:  100%;
-    }
   </style>
 
 </head>
 <body>
   <nav>
-    <img src="Images/logo-modified-2.jpg" id="navLogo" alt="trinity logo">
-    <a href="home.html">Home</a>
-    <a href="staff.html">Staff</a>
-    <a href="admission.html">Admission</a>
-    <a href="scholarship.html">Scholarship</a>
+    <img src="../Images/logo-modified-2.jpg" id="navLogo" alt="trinity logo">
+    <a href="../home.html">Home</a>
+    <a href="../staff.html">Staff</a>
+    <a href="../admission.html">Admission</a>
+    <a href="../scholarship.html">Scholarship</a>
     <a href="">Tab5</a>
-    <a href="contact_us.html">Contact Us</a>
+    <a href="../contact_us.html">Contact Us</a>
   </nav>
-
+  
   <section>
-    <div class="plustwo" onclick="location.href='Admission/plus2.html'"><img src="Images/plus2.jfif"></div>
-    <div class="a_levels" onclick="location.href='Admission/a_levels.html'"><img src="Images/a_levels.png"></div>
+    
+    <form method="get">
+      <label for= username>Name:</label>
+      <input type=text name="username" id="username">  
+    </form>
+
   </section>
+    
 
 </body>
 </html>
