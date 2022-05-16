@@ -49,6 +49,60 @@
     }
 
     /*</Navigation Bar>*/
+
+    .index_head{
+      color:  purple;
+      font-size:  40px;
+      margin-left:  90px;
+    }
+    .index li a{
+      color: white;
+      font-size:  larger;
+      text-decoration:  none;
+      margin-left:  90px;
+    }
+
+
+    .main_grid{
+      display:  grid;
+      grid-template-rows:  repeat(4, 1fr);
+      margin: 0px 100px;
+      row-gap:  40px;
+    }
+    
+    .nested_grid{
+      display:  grid;
+      grid-template-columns: repeat(4, 1fr);
+      justify-items:  center;
+      column-gap:  30px;
+    }
+
+    .post_head{
+      text-align:  start;
+      padding-left: 55px;
+      font-size:  40px;
+      text-decoration: none;
+      color:  darkred;
+    }
+
+    .staff_name{
+      color:  darkred;
+      font-weight:  bold;
+      font-size:  larger;
+      text-align: center;
+    }
+
+    .staff_post{
+      text-align:  center;
+    }
+
+    .staff img{
+      border:  3px solid gold;
+    }
+
+
+
+
   </style>
 
 </head>
@@ -62,6 +116,151 @@
     <a href="">Tab5</a>
     <a href="contact_us.html">Contact Us</a>
   </nav>
+
+  <section>
+    <p class="index_head">Index: </p>
+    <ul class=index type=none>
+      <li><a href="#account">Account</a></li><br>
+      <li><a href="#administration">Administration</a></li><br>
+      <li><a href="#creative">Creative</a></li><br>
+      <li><a href="#eca">ECA</a></li><br>
+    </ul>
+
+    <div class=main_grid>
+      <div>
+        <a href="#account" class="post_head" id="account">Account</a>
+        <br>
+        <div class="nested_grid">
+          
+          <div class="staff">
+            <img src="Images/staff/Bhuwan KC.jpg">
+            <br>
+            <p class="staff_name">Bhuwan KC</p>
+            <p class="staff_post">Account Officer</p>
+          </div>
+          
+          <div class="staff">
+            <img src="Images/staff/Bhuwan KC.jpg">
+            <br>
+            <p class="staff_name">Bhuwan KC</p>
+            <p class="staff_post">Account Officer</p>
+          </div>
+          
+          <div class="staff">
+            <img src="Images/staff/Bhuwan KC.jpg">
+            <br>
+            <p class="staff_name">Bhuwan KC</p>
+            <p class="staff_post">Account Officer</p>
+          </div>
+
+          <div class="staff">
+            <img src="Images/staff/Bhuwan KC.jpg">
+            <br>
+            <p class="staff_name">Bhuwan KC</p>
+            <p class="staff_post">Account Officer</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div>
+        <a href="#administration" class="post_head" id="administration">Administration</a>
+        <br>
+        <div class="nested_grid">
+          
+          <div class="staff">
+            <img src="Images/staff/Bhuwan KC.jpg">
+            <br>
+            <p class="staff_name">Bhuwan KC</p>
+            <p class="staff_post">Account Officer</p>
+          </div>
+          
+          <div class="staff">
+            <img src="Images/staff/Bhuwan KC.jpg">
+            <br>
+            <p class="staff_name">Bhuwan KC</p>
+            <p class="staff_post">Account Officer</p>
+          </div>
+          
+          <div class="staff">
+            <img src="Images/staff/Bhuwan KC.jpg">
+            <br>
+            <p class="staff_name">Bhuwan KC</p>
+            <p class="staff_post">Account Officer</p>
+          </div>
+
+          <div class="staff">
+            <img src="Images/staff/Bhuwan KC.jpg">
+            <br>
+            <p class="staff_name">Bhuwan KC</p>
+            <p class="staff_post">Account Officer</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div>
+        <a href="#creative" class="post_head" id="creative">Creative</a>
+        <br>
+        <div class="nested_grid">
+          
+          <div class="staff">
+            <img src="Images/staff/Bhuwan KC.jpg">
+            <br>
+            <p class="staff_name">Bhuwan KC</p>
+            <p class="staff_post">Account Officer</p>
+          </div>
+          
+          <div class="staff">
+            <img src="Images/staff/Bhuwan KC.jpg">
+            <br>
+            <p class="staff_name">Bhuwan KC</p>
+            <p class="staff_post">Account Officer</p>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div>
+        <a href="#eca" class="post_head" id="eca">ECA</a>
+        <br>
+        <div class="nested_grid">
+          
+          <div class="staff">
+            <img src="Images/staff/Bhuwan KC.jpg">
+            <br>
+            <p class="staff_name">Bhuwan KC</p>
+            <p class="staff_post">Account Officer</p>
+          </div>
+          
+          <div class="staff">
+            <img src="Images/staff/Bhuwan KC.jpg">
+            <br>
+            <p class="staff_name">Bhuwan KC</p>
+            <p class="staff_post">Account Officer</p>
+          </div>
+          
+          <div class="staff">
+            <img src="Images/staff/Bhuwan KC.jpg">
+            <br>
+            <p class="staff_name">Bhuwan KC</p>
+            <p class="staff_post">Account Officer</p>
+          </div>
+
+          <div class="staff">
+            <img src="Images/staff/Bhuwan KC.jpg">
+            <br>
+            <p class="staff_name">Bhuwan KC</p>
+            <p class="staff_post">Account Officer</p>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+  </section>
 
 </body>
 </html>
