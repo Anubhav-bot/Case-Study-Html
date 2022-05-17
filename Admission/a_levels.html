@@ -48,8 +48,46 @@
     #navLogo:hover{
       border:  1px inset orange;
     }
-
     /*</Navigation Bar>*/
+
+    form{
+      margin:  50px 100px;
+    }
+
+    .text_input{
+      border-radius:  5px ;
+      padding:  5px 10px;
+      width:  25vw;
+    }
+
+    label{
+      display: block;
+      margin:  20px 0px;
+    
+    }
+    input{
+      display:  block;
+    }
+
+    .select{
+      width:  100px;
+      height:  30px;
+    }
+    section{
+      display: inline-block;
+      height:  100%;
+      width:  50%;
+      max-width:  100%;
+    }
+    aside{
+      background:  url("../Images/cloud_in_a_cup.jpg");
+      background-size: cover;
+      background-position: center;
+      display: inline-block;
+      width:  48%;
+      height: 100%;
+      vertical-align: top;
+    }
   </style>
 
 </head>
@@ -63,7 +101,46 @@
     <a href="">Tab5</a>
     <a href="../contact_us.html">Contact Us</a>
   </nav>
+  
+  <section>
+    <form action="backend.html">
 
+      <label>Name*
+        <input name=f_name type=text class="text_input" placeholder="Name" required>  
+      </label>
+
+      <label>Phone No*
+        <input name=num type="text" class="text_input" placeholder="Phone No." required>
+      </label>
+
+      <label>Email*
+        <input name=email type="email" class="text_input" placeholder="Email" required>
+      </label>
+
+      <label>Stream*: 
+        <select name=stream class="select">
+          <option value="a_levels science">Science</option>
+          <option value="a_levels management">Management</option>
+          <option value="a_levels humanities">Humanities</option>
+        </select>
+      </label>
+
+      <label>S.E.E Score: 
+        <input type="text" class="text_input" placeholder="in GPA" required>
+      </label>
+
+      <label>S.E.E Gradesheet*: 
+        <input type="file" required>
+      </label>
+      <br>
+      <label>
+        <input type="submit">
+      </label>
+    </form>
+  </section>
+  
+  <aside></aside>
+    
 
 </body>
 </html>

@@ -48,16 +48,47 @@
     #navLogo:hover{
       border:  1px inset orange;
     }
+    /*</Navigation Bar>*/
 
     form{
       margin:  50px 100px;
     }
 
-    #username{
-      border-radius:  10px ;
+    .text_input{
+      border-radius:  5px ;
+      padding:  5px 10px;
+      width:  25vw;
     }
 
-    /*</Navigation Bar>*/
+    label{
+      display: block;
+      margin:  20px 0px;
+    
+    }
+    input{
+      display:  block;
+    }
+
+    .select{
+      width:  100px;
+      height:  30px;
+    }
+    section{
+      display: inline-block;
+      height:  100%;
+      width:  50%;
+      max-width:  100%;
+    }
+    aside{
+      background:  url("../Images/cloud_in_a_cup.jpg");
+      background-size: cover;
+      background-position: center;
+      display: inline-block;
+      width:  48%;
+      height: 100%;
+      vertical-align: top;
+    }
+    
   </style>
 
 </head>
@@ -73,13 +104,43 @@
   </nav>
   
   <section>
-    
-    <form method="get">
-      <label for= username>Name:</label>
-      <input type=text name="username" id="username">  
-    </form>
+    <form action="backend.html">
 
+      <label>Name*
+        <input name=f_name type=text class="text_input" placeholder="Name" required>  
+      </label>
+
+      <label>Phone No*
+        <input name=num type="text" class="text_input" placeholder="Phone No." required>
+      </label>
+
+      <label>Email*
+        <input name=email type="email" class="text_input" placeholder="Email" required>
+      </label>
+
+      <label>Stream*: 
+        <select name=stream class="select">
+          <option value="plustwo science">Science</option>
+          <option value="plustwo management">Management</option>
+          <option value="plustwo humanities">Humanities</option>
+        </select>
+      </label>
+
+      <label>S.E.E Score: 
+        <input type="text" class="text_input" placeholder="in GPA" required>
+      </label>
+
+      <label>S.E.E Gradesheet*: 
+        <input type="file" required>
+      </label>
+      <br>
+      <label>
+        <input type="submit">
+      </label>
+    </form>
   </section>
+  
+  <aside></aside>
     
 
 </body>
