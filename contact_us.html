@@ -3,8 +3,12 @@
   <title>Contact US</title>
   
   <style>
+    *{
+      color: white;
+      font-family: calibri, curseive;
+    }
     body{
-      background-color:  gray;
+      background-color:  #005051;
     }
 
 
@@ -49,6 +53,28 @@
     }
 
     /*</Navigation Bar>*/
+    iframe{
+      width: 100%;
+      height: 75%;
+    }
+    .header{
+        text-align: center;
+        font-size: 50px;
+    }
+    .container{
+      /*border: 2px solid red;*/
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      height: 70%;
+    }
+    .container .child{
+      margin: 20px;
+      /*border: 2px solid black;*/
+    }
+    a{
+      text-decoration: none;
+    }
   </style>
 
 </head>
@@ -62,6 +88,41 @@
     <a href="">Tab5</a>
     <a href="contact_us.html">Contact Us</a>
   </nav>
+
+  <section>
+    <h2 class=header>GET IN TOUCH</h2>
+
+    <div class=container>
+      <div class="address child">
+        <h3 class="childHeader">Address</h3>
+        <a href="#map"> Dillibazar, Kathmandu, Nepal </a>
+
+      </div>
+      <div class="phone child">
+        <h3 class="childHeader">Phone</h3>
+        <a href="tel:+977 1 4445955"> +977 1 4445955 / 4445956 </a>
+      </div>
+      <div class="email child">
+        <h3 class="childHeader">Email</h3>
+        <a href="mailto:info@trinitycollege.edu.np"> info@trinitycollege.edu.np </a>
+      </div>
+
+      <div class="email child">
+        <h3 class="childHeader">Fax</h3>
+        <p>+977 1 4437867</p>
+      </div>
+
+      <div class="email child">
+        <h3 class="childHearder">PO Box</h3>
+        <p>26111</p>
+      </div>
+
+    </div>
+
+    <iframe id=map src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2100.404480687369!2d85.32420269608949!3d27.70353744289715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19a7c6cd102b%3A0x78049640e89dd5ca!2sTrinity%20Int&#39;l%20College!5e0!3m2!1sen!2snp!4v1653811317178!5m2!1sen!2snp" title="Location" name="location"></iframe>
+
+
+  </section>
 
 </body>
 </html>
